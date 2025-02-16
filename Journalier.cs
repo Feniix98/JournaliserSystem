@@ -26,7 +26,7 @@ namespace JournalierSystem
 
         public void InitConfig()
         {
-            string directoryPath = pluginsPath + "/Pharmacie76";
+            string directoryPath = pluginsPath + "/JournalierSystem";
             string configFilePath = directoryPath + "/config.json";
 
             if (!Directory.Exists(directoryPath)) Directory.CreateDirectory(directoryPath);
