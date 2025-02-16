@@ -1,4 +1,4 @@
-# :tools: JournalierSystem
+# JournalierSystem
 
 # :package:  Description
 ```md
