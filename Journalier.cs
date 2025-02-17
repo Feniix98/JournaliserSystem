@@ -51,6 +51,7 @@ namespace JournalierSystem
         public override void OnPluginInit()
         {
             base.OnPluginInit();
+            InitConfig();
             Logger.LogSuccess($"{PluginInformations.SourceName} v{PluginInformations.Version}", "initialisée");
             Orm.RegisterTable<Cooldown_DB>();
         }
